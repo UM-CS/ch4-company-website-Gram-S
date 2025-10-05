@@ -25,6 +25,6 @@ class ProductsPageView(TemplateView):
         context = super().get_context_data(**kwargs)
         context["Product_A"] = "Helium-3 Isotope |"
         context["Product_B"] = "Fresh Hay |"
-        context["Product_C"] = "Tires (1 left in stock |
+        context["Product_C"] = "Tires (1 left in stock |"
         context["Product_D"] = "My stupid iphone charger that makes a weird buzzing sound whenever i plug it in |"
         return context
